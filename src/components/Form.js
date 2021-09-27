@@ -37,9 +37,9 @@ const Form = ({inputText, setInputText, todos, setTodos, setStatus}) =>{
         </button>
         <div  onChange={statusHandler} className="select">
           <select name="todos" className="filter-todo">
-            <option value="all">All</option>
-            <option value="completed">Completed</option>
-            <option value="uncompleted">Uncompleted</option>
+            <option value="all">Todas</option>
+            <option value="completed">Feitos</option>
+            <option value="uncompleted">A Fazer</option>
           </select>
         </div>
       </form>
